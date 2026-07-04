@@ -23,3 +23,5 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+// Import the AdminCommand.js file to make the custom commands available
+import "./adminCommand.js";
